@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+.cardStyle {
+  width: 400px;
+}
+.listStyle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 2%;
+  flex-direction: row;
+  padding: 2%;
+}
+.imgStyle {
+  height: 300px;
+}
+.btnShow {
+  color: red;
+  border: none;
+  background-color: #fff;
+}
+.btnShow2 {
+  color: rgb(31, 150, 10);
+  border: none;
+  background-color: #fff;
+}
+.heart {
+  color: red;
+}
+.heart2 {
+  color: rgb(187, 187, 187);
+}
+.bottomCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  padding-right: 30px;
+}
+.heartAndShare {
+  padding: 20px;
+}
+.MuiToolbar-root {
+  background-color: #002333;
+}
